@@ -32,7 +32,7 @@ body::before {
 }
 
 .s-menu__icon {
-    width: 4rem;
+    width: 3rem;
     margin: 0 1.25rem;
     vertical-align: middle;
 }
@@ -133,11 +133,11 @@ body::before {
 }
 
 body#op-luffy-hovered::before{
-    background-image: url(/assets/css/images/card1.png);
+    background-image: url(/assets/css/images/card1.jpg);
 }
 
 body#op-zoro-hovered::before{
-    background-image: url(/assets/css/images/card2.jpg);
+    background-image: url(/assets/css/images/card2.jpeg);
 }
 
 body#op-sanji-hovered::before{
