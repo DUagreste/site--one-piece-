@@ -1,5 +1,5 @@
-@import url('/assets/css/reset.css');
-@import url('/assets/css/global.css');
+@import url('reset.css');
+@import url('global.css');
 
 body {
     background-color: var(--primary-color);
@@ -7,7 +7,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url('/assets/css/images/background.jpg');
+    background-image: url('images/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -168,15 +168,15 @@ body::before {
 }
 
 body#op-luffy-hovered::before{
-    background-image: url(/assets/css/images/card1.jpg);
+    background-image: url(images/card1.jpg);
 }
 
 body#op-zoro-hovered::before{
-    background-image: url(/assets/css/images/card2.jpeg);
+    background-image: url(images/card2.jpeg);
 }
 
 body#op-sanji-hovered::before{
-    background-image: url(/assets/css/images/card3.jpg);
+    background-image: url(images/card3.jpg);
 }
 
 body[id^="op-"]::before{
